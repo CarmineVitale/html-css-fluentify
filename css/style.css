@@ -211,6 +211,19 @@ h2.big {
 #plan {
   width: 1000px;
   margin: 0 auto;
+  padding: 40px 0;
+}
+/* #plan div {
+  padding:70px;
+} */
+.colonna1 {
+  padding-right: 50px;
+}
+.colonna2 {
+  padding-left: 50px;
+}
+.colonna2 p {
+  margin-bottom: 20px;
 }
 
 /* Help */
@@ -230,3 +243,27 @@ h2.big {
 }
 
 /* Structure styles here*/
+#structure {
+  padding-top: 30px;
+  height: 150px;
+  background-color: #d3d3d3;
+}
+.select {
+  display: inline-block;
+  margin-right: 20px;
+}
+.icon {
+  border-bottom: 1px solid black;
+}
+.fa-sort-down {
+  display: inline-block;
+  margin-left: 20px;
+}
+#structure a {
+  text-decoration: none;
+  color: white;
+  background: #7bbb00;
+  margin-left: 180px;
+  padding: 16px;
+  border-radius: 10px;
+}
